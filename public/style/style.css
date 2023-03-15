@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif 10px;
+
+}
+
+main {
+    max-height: 50vw;
+}
+
+.contenedor_base {
+    height: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    height: 80px;
+}
+
+/* navbar */
+.contenedor_navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img_contenedor {
+    margin-top: 5px;
+    width: 40%;
+}
+
+.logo {
+    object-fit: contain;
+    width: 40%;
+    height: 100%;
+}
+
+.ul_nav {
+    padding: 20px;
+    padding-right: 80px;
+    width: 60%;
+    height: 80px;
+    list-style-type: none;
+    column-gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.li_nav {
+    font-size: small;
+    padding-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+
+.a_nav {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.li_nav :hover {
+    background-color: rgb(245, 7, 118);
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+/* navbar */
+
+/* titulo navbar */
+.titulo_hero {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    
+}
+
+.titulo_hero h1 {
+    color: white;
+    color: #FFFFFF;
+    text-shadow: #FF2D95 0px 0px 5px, #e411c1 0px 0px 10px, #000000 0px 0px 15px, #ee288b 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+}
+
+
+
+/* titulo navbar */
+
+/* hero imagen */
+
+.hero_contenedor {
+    height: 200px;
+    padding-top: 2px;
+}
+
+.hero {
+    width: 100vw;
+    object-fit: cover;
+}
+
+/* hero imagen */
+
+/* check */
+
+.contenedor_checkbox {
+    width: 100vw;
+    margin-top: 20px;
+    height: 50px;
+    column-gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: small;
+    justify-content: space-evenly;
+}
+
+.form-check {
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* check */
+
+/* boton de busqueda */
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 20px;
+    text-align: center;
+    column-gap: 4px;
+}
+
+.contenedor_search2 {
+
+    border-color: rgb(240, 172, 219);
+    box-shadow: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: x-small;
+}
+
+.search {
+    width: 50px;
+    height: 25px;
+    border-color: rgb(240, 172, 219);
+    ;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: x-small;
+}
+
+.search:hover {
+    background-color: rgb(245, 7, 118);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+/* boton de busqueda */
+
+/* tarjetas */
+.card_home {
+    height: 25vw;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    column-gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: x-small;
+    justify-content: space-evenly;
+
+}
+
+.card-body {
+    height: 180px;
+
+
+}
+
+.card-img-top {
+    height: 120px;
+}
+
+.card {
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.card:hover {
+    transform: translatey(-20px);
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(240, 17, 106, 0.22);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(240, 17, 106, 0.22);
+    box-shadow: 10px 10px 12px 0px rgba(240, 17, 106, 0.22);
+
+}
+
+/* footer */
+footer {
+    height: 100px;
+    background-color: rgb(245, 7, 118);
+}
+
+.icons {
+    padding-top: 40px;
+    height: 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+
+i {
+    color: white;
+}
